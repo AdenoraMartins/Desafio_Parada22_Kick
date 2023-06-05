@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Formulário de Inscrição</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/validacao.js"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="img/icone.png" type="image/x-icon">
+</head>
+
+<body>
+    <div id="main">
+
+        <div id="form_box">
+
+          
+            <h2>3° Encontro Socioambiental Green </h2>
+
+            <form action="">
+
+                <div class="f_line">
+                    <span>
+                        <label>Nome</label>
+                        <input type="text" id="i_nome" required>
+                    </span>
+                    <span>
+                        <label>Sobrenome</label>
+                        <input type="text" id="i_sobrenome" required>
+                    </span>
+                </div>
+
+                <div class="f_line">
+                    <span>
+                        <label>Data de Nascimento</label>
+                        <input type="date" id="i_data" required>
+                    </span>
+                    <span>
+                        <label>Estado Civil</label>
+                        <select>
+                            <option>Solteiro</option>
+                            <option>Casado</option>
+                            <option>Divorciado</option>
+                            <option>Outros</option>
+                        </select>
+                    </span>
+                </div>
+
+                <div class="f_line">
+                    <span>
+                        <label>Gênero</label>
+
+                        Feminino
+                        <input type="radio" name="i_genero" id="i_genero" checked>
+                        Masculino
+                        <input type="radio" name="i_genero" id="i_genero">
+                        Outro
+                        <input type="radio" name="i_genero" id="i_genero">
+                    </span>
+                </div>
+
+                <div class="f_line">
+                    <span>
+                        <label>Criar Senha</label>
+                        <input type="password" id="i_senha" required>
+                    </span>
+                    <span>
+                        <label>Confirmar Senha</label>
+                        <input type="password" id="i_conSenha" required>
+                    </span>
+                </div>
+
+                <div class="f_line">
+                    <span>
+                        <input type="submit" id="btt_form" onclick="" value="Confirmar Inscrição">
+                    </span>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
